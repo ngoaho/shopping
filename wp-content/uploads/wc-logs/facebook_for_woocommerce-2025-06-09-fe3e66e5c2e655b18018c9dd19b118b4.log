@@ -1,0 +1,3 @@
+2025-06-09T00:14:42+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job c9c45c9369537624374370fe4ffad422: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-09T00:21:36+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 16c43c979f32920ec8a9677e6cbfd3d1: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-09T00:38:26+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 5f9efff50db8ec5befe4485c357d8a53: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}

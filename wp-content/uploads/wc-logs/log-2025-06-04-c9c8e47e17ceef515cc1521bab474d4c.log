@@ -1,0 +1,5 @@
+2025-06-04T22:18:57+00:00 INFO Processing Order id 1245 to send Whatsapp Utility messages
+2025-06-04T22:18:57+00:00 INFO Messages Post API call for Order id 1245 skipped due to no active event config
+2025-06-04T22:21:27+00:00 INFO Processing Order id 1246 to send Whatsapp Utility messages
+2025-06-04T22:21:27+00:00 INFO Messages Post API call for Order id 1246 skipped due to no active event config
+2025-06-04T22:51:14+00:00 WARNING Các mẫu trống nhận được từ PTK Pattern Store

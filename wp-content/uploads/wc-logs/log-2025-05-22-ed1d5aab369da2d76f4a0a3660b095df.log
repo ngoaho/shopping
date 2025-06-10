@@ -1,0 +1,4 @@
+2025-05-22T01:02:10+00:00 INFO Payment gateway enabled: "Thanh toán khi nhận hàng"
+2025-05-22T01:10:55+00:00 INFO Payment gateway enabled: "Chuyển khoản ngân hàng trực tiếp"
+2025-05-22T03:27:25+00:00 INFO Processing Order id 1233 to send Whatsapp Utility messages
+2025-05-22T03:27:25+00:00 INFO Messages Post API call for Order id 1233 skipped due to no active event config

@@ -1,0 +1,67 @@
+a:2:{s:4:"time";i:1749166838;s:5:"value";O:7:"WP_Post":24:{s:2:"ID";i:1255;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2025-06-05 06:40:38";s:13:"post_date_gmt";s:19:"2025-06-04 23:40:38";s:12:"post_content";s:2917:"{
+    "widget_text[7]": {
+        "value": {
+            "encoded_serialized_instance": "YTo0OntzOjU6InRpdGxlIjtzOjE2OiJW4buBIENow7puZyBUw7RpIjtzOjQ6InRleHQiO3M6MTI1OiJuaMawIG5oaeG7gXUgcGhvbmcgY8OhY2ggbeG6t2MgxJHhu4tuaCBraMOhYyBuaGF1LiBUdXkgbmhpw6puLCBwaG9uZyBjw6FjaCBtw6AgdMO0aSB0aMOtY2ggbmjhuqV0IGzDoCBwaG9uZyBjw6FjaCB0aOG7gyB0aGFvLiI7czo2OiJmaWx0ZXIiO2I6MTtzOjY6InZpc3VhbCI7YjoxO30=",
+            "title": "About Us",
+            "is_widget_customizer_js_value": true,
+            "instance_hash_key": "3d7ef33720cb94e9095d9c0bdf052640",
+            "raw_instance": {
+                "title": "V\u1ec1 Ch\u00fang T\u00f4i",
+                "text": "nh\u01b0 nhi\u1ec1u phong c\u00e1ch m\u1eb7c \u0111\u1ecbnh kh\u00e1c nhau. Tuy nhi\u00ean, phong c\u00e1ch m\u00e0 t\u00f4i th\u00edch nh\u1ea5t l\u00e0 phong c\u00e1ch th\u1ec3 thao.",
+                "filter": true,
+                "visual": true
+            }
+        },
+        "type": "option",
+        "user_id": 1,
+        "date_modified_gmt": "2025-06-04 23:39:04"
+    },
+    "widget_nav_menu[9]": {
+        "value": {
+            "encoded_serialized_instance": "YTozOntzOjg6ImNvbGxhcHNlIjtpOjE7czo1OiJ0aXRsZSI7czoxNzoiTEnDik4gS+G6vlQgTkhBTkgiO3M6ODoibmF2X21lbnUiO2k6NDI7fQ==",
+            "title": "QUICK LINKS",
+            "is_widget_customizer_js_value": true,
+            "instance_hash_key": "6f22125c0572e32487b8e9525b08e99f",
+            "raw_instance": {
+                "collapse": 1,
+                "title": "LI\u00caN K\u1ebeT NHANH",
+                "nav_menu": 42
+            }
+        },
+        "type": "option",
+        "user_id": 1,
+        "date_modified_gmt": "2025-06-04 23:39:51"
+    },
+    "widget_nav_menu[8]": {
+        "value": {
+            "encoded_serialized_instance": "YTozOntzOjg6ImNvbGxhcHNlIjtiOjA7czo1OiJ0aXRsZSI7czoxMDoiS2jDoW0gcGjDoSI7czo4OiJuYXZfbWVudSI7aTo0MTt9",
+            "title": "Discover",
+            "is_widget_customizer_js_value": true,
+            "instance_hash_key": "78b23638a44fd7a371943b42b2989019",
+            "raw_instance": {
+                "collapse": false,
+                "title": "Kh\u00e1m ph\u00e1",
+                "nav_menu": 41
+            }
+        },
+        "type": "option",
+        "user_id": 1,
+        "date_modified_gmt": "2025-06-04 23:40:04"
+    },
+    "widget_nav_menu[7]": {
+        "value": {
+            "encoded_serialized_instance": "YTozOntzOjg6ImNvbGxhcHNlIjtiOjA7czo1OiJ0aXRsZSI7czoxMToiR2nDunAgxJHhu6EiO3M6ODoibmF2X21lbnUiO2k6NDA7fQ==",
+            "title": "Help",
+            "is_widget_customizer_js_value": true,
+            "instance_hash_key": "96c22df166c06b92077e749889c11dc5",
+            "raw_instance": {
+                "collapse": false,
+                "title": "Gi\u00fap \u0111\u1ee1",
+                "nav_menu": 40
+            }
+        },
+        "type": "option",
+        "user_id": 1,
+        "date_modified_gmt": "2025-06-04 23:40:38"
+    }
+}";s:10:"post_title";s:0:"";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:36:"683ac217-5ef5-4ab7-9f6a-1245e0fc9a91";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2025-06-05 06:40:38";s:17:"post_modified_gmt";s:19:"2025-06-04 23:40:38";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:33:"http://localhost/shopping/?p=1255";s:10:"menu_order";i:0;s:9:"post_type";s:19:"customize_changeset";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

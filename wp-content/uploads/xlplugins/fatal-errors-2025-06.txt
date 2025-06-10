@@ -1,0 +1,768 @@
+
+Jun 04, 2025 20.24.36: Maximum execution time of 120 seconds exceeded
+
+Jun 04, 2025 20.24.54: Maximum execution time of 120 seconds exceeded
+
+Jun 04, 2025 20.37.16: Maximum execution time of 120 seconds exceeded
+
+Jun 04, 2025 21.14.54: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 04, 2025 23.35.23: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('media_image', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.35.24: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.38.12: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.38.39: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.38.41: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.39.00: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.39.22: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.39.36: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.39.42: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.00: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.06: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.12: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.30: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.42: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.50: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.40.56: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.50.20: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.50.39: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.51.02: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 04, 2025 23.51.14: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown
+
+Jun 05, 2025 01.39.54: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 01.50.47: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 01.50.58: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 01.51.39: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 02.02.35: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 02.23.24: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 02.28.59: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 02.33.06: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 02.44.17: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 05, 2025 03.12.22: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.14.45: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.21.37: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.22.30: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.23.01: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.23.01: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.23.03: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.23.04: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.23.04: Maximum execution time of 120 seconds exceeded
+
+Jun 05, 2025 03.37.31: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 08, 2025 22.25.46: Maximum execution time of 120 seconds exceeded
+
+Jun 08, 2025 22.34.23: Maximum execution time of 120 seconds exceeded
+
+Jun 08, 2025 22.34.26: Maximum execution time of 120 seconds exceeded
+
+Jun 08, 2025 23.45.20: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 08, 2025 23.48.03: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 09, 2025 00.06.34: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 09, 2025 00.19.14: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 09, 2025 00.36.47: Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\New folder\htdocs\shopping\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown
+
+Jun 10, 2025 12.05.30: Maximum execution time of 120 seconds exceeded
+
+Jun 10, 2025 12.15.56: Maximum execution time of 120 seconds exceeded
+
+Jun 10, 2025 12.15.59: Maximum execution time of 120 seconds exceeded
+
+Jun 10, 2025 14.35.08: Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-cart.php:206
+Stack trace:
+#0 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-container.php(29): Xoo_Wsc_Cart->get_cart_count()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#2 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(25): Xoo_Helper->get_template('xoo-wsc-contain...')
+#3 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(68): include('C:\\New folder\\h...')
+#4 C:\New folder\htdocs\shopping\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(168): Xoo_Helper->get_template('xoo-wsc-markup....')
+#5 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): Xoo_Wsc_Frontend->cart_markup('')
+#6 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\New folder\htdocs\shopping\wp-includes\general-template.php(3208): do_action('wp_footer')
+#9 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(666): wp_footer()
+#10 C:\New folder\htdocs\shopping\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(614): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('nav_menu', Array)
+#11 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Widget_Types_Controller->render(Object(WP_REST_Request))
+#12 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#13 C:\New folder\htdocs\shopping\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 C:\New folder\htdocs\shopping\wp-includes\rest-api.php(459): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#15 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#16 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 C:\New folder\htdocs\shopping\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#18 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#19 C:\New folder\htdocs\shopping\wp-includes\class-wp.php(818): WP->parse_request('')
+#20 C:\New folder\htdocs\shopping\wp-includes\functions.php(1342): WP->main('')
+#21 C:\New folder\htdocs\shopping\wp-blog-header.php(16): wp()
+#22 C:\New folder\htdocs\shopping\index.php(17): require('C:\\New folder\\h...')
+#23 {main}
+  thrown

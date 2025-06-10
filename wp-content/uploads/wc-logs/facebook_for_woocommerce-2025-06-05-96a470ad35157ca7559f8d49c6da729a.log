@@ -1,0 +1,73 @@
+2025-06-05T01:48:29+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T01:48:29+00:00 NOTICE ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(148): WC_Facebookcommerce->get_api()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(67): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(48, 48, Array)
+#3 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\New folder\htdocs\shopping\wp-includes\taxonomy.php(2691): do_action('create_product_...', 48, 48, Array)
+#6 C:\New folder\htdocs\shopping\wp-admin\includes\ajax-actions.php(623): wp_insert_term('c\xE1\xBB\x91c', 'product_cat', Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): _wp_ajax_add_hierarchical_term('')
+#8 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-pro...')
+#11 {main} CONTEXT: {"_legacy":true}
+2025-06-05T01:49:11+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job ba9906537c2eeb16cc54993944b11f1c: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T01:50:30+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 3a5d0db1107bfac917c54c0b1e4900dc: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:13:58+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job b815022fae150a9ecf375ec339e68967: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:21:49+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:21:49+00:00 NOTICE ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(148): WC_Facebookcommerce->get_api()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(67): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(52, 52, Array)
+#3 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\New folder\htdocs\shopping\wp-includes\taxonomy.php(2691): do_action('create_product_...', 52, 52, Array)
+#6 C:\New folder\htdocs\shopping\wp-admin\includes\ajax-actions.php(623): wp_insert_term('m\xC5\xA9', 'product_cat', Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): _wp_ajax_add_hierarchical_term('')
+#8 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-pro...')
+#11 {main} CONTEXT: {"_legacy":true}
+2025-06-05T02:25:53+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:25:53+00:00 NOTICE ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(148): WC_Facebookcommerce->get_api()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(67): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(54, 54, Array)
+#3 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\New folder\htdocs\shopping\wp-includes\taxonomy.php(2691): do_action('create_product_...', 54, 54, Array)
+#6 C:\New folder\htdocs\shopping\wp-admin\includes\ajax-actions.php(623): wp_insert_term('huy hi\xE1\xBB\x87u', 'product_cat', Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): _wp_ajax_add_hierarchical_term('')
+#8 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-pro...')
+#11 {main} CONTEXT: {"_legacy":true}
+2025-06-05T02:26:12+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 4914fc27d3b1554aab3d94abf77ae012: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:38:52+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:38:52+00:00 NOTICE ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(148): WC_Facebookcommerce->get_api()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(67): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(57, 57, Array)
+#3 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\New folder\htdocs\shopping\wp-includes\taxonomy.php(2691): do_action('create_product_...', 57, 57, Array)
+#6 C:\New folder\htdocs\shopping\wp-admin\includes\ajax-actions.php(623): wp_insert_term('\xC3\xA1o kho\xC3\xA1c', 'product_cat', Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): _wp_ajax_add_hierarchical_term('')
+#8 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-pro...')
+#11 {main} CONTEXT: {"_legacy":true}
+2025-06-05T02:39:48+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job c4d666e9f5ec635526d308baae84b97c: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:48:35+00:00 NOTICE There was an error trying to get product set data in a catalog: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T02:48:35+00:00 NOTICE ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Cannot create the API instance because the access token is missing.; exception_trace : #0 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(148): WC_Facebookcommerce->get_api()
+#1 C:\New folder\htdocs\shopping\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(67): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id(Object(WP_Term))
+#2 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback(60, 60, Array)
+#3 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\New folder\htdocs\shopping\wp-includes\taxonomy.php(2691): do_action('create_product_...', 60, 60, Array)
+#6 C:\New folder\htdocs\shopping\wp-admin\includes\ajax-actions.php(623): wp_insert_term('\xE1\xBB\x91p \xC4\x91i\xE1\xBB\x87n th...', 'product_cat', Array)
+#7 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(324): _wp_ajax_add_hierarchical_term('')
+#8 C:\New folder\htdocs\shopping\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\New folder\htdocs\shopping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\New folder\htdocs\shopping\wp-admin\admin-ajax.php(192): do_action('wp_ajax_add-pro...')
+#11 {main} CONTEXT: {"_legacy":true}
+2025-06-05T02:48:47+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 33dd883369ff8ffdd73f7012642f7f41: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T03:46:18+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 2686b44fb3dc16012b8ddf6317017a35: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-06-05T03:50:35+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job cf80273ef6fd17d232b9f13e33f7b5d1: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}

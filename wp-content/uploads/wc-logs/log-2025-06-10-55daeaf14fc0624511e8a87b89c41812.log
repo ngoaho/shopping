@@ -1,0 +1,2 @@
+2025-06-10T13:53:38+00:00 INFO Processing Order id 1368 to send Whatsapp Utility messages
+2025-06-10T13:53:38+00:00 INFO Messages Post API call for Order id 1368 skipped due to no active event config
